@@ -31,6 +31,7 @@ func init() {
 	eos.RegisterAction(AN("eosio"), ActN("updateauth"), UpdateAuth{})
 	eos.RegisterAction(AN("eosio"), ActN("setramrate"), SetRAMRate{})
 	eos.RegisterAction(AN("eosio"), ActN("setalimits"), Setalimits{})
+	eos.RegisterAction(AN("eosio"), ActN("powerup"), PowerUp{})
 }
 
 var AN = eos.AN
